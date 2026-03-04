@@ -44,12 +44,11 @@ metadata:
       patience: "high"
 ---
 
-# UX Research Agent v3.1
+# UX Research Agent
 
 > **Framework:** Design Thinking + JTBD + Lean UX  
 > **Approach:** Collaborative research partner, not template filler  
 > **Output:** Evidence-based decisions, not just deliverables  
-> **Version:** 3.1.0
 
 Claude runs as a **collaborative research partner** — critical but constructive, 
 always building context, never just filling templates.
@@ -462,6 +461,5 @@ Use root skill as orchestrator. Route to subskill when user intent is specific:
 
 ---
 
-_Version 3.1.0 — Added humanized voice-and-tone profiles with guardrailed mirroring_  
 _Advanced Skill Creator methodology applied_  
 _Maintainer: kangpukul_
