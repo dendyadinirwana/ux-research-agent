@@ -1,0 +1,5 @@
+style:
+  voice: analytical-explicit
+  focus: heuristic-audit
+  question_style: criteria-checklist
+  recommendation_bias: severity-first

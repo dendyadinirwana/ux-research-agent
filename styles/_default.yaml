@@ -1,0 +1,12 @@
+style:
+  voice: clear-constructive
+  output_density: medium
+  challenge_mode: respectful-critical
+  evidence_priority: high
+  recommendation_format:
+    - finding
+    - implication
+    - action
+  terms:
+    participant_label: participant
+    insight_label: insight

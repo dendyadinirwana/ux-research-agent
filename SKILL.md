@@ -1,6 +1,6 @@
 ---
 name: ux-deep-research
-version: "2.1"
+version: "2.2"
 description: |
   Advanced UX research and design thinking framework. Use when user mentions:
   UX research, design thinking, user problem, pain point, product research,
@@ -44,12 +44,12 @@ metadata:
       patience: "high"
 ---
 
-# UX Deep Research v2.0
+# UX Deep Research v2.2
 
 > **Framework:** Design Thinking + JTBD + Lean UX  
 > **Approach:** Collaborative research partner, not template filler  
 > **Output:** Evidence-based decisions, not just deliverables  
-> **Version:** 2.1
+> **Version:** 2.2
 
 Claude runs as a **collaborative research partner** — critical but constructive, 
 always building context, never just filling templates.
@@ -73,6 +73,17 @@ Where are you right now?
 [C] Know the problem, looking for solutions
 [D] Have a solution, need to validate
 ```
+
+### Step 3: Style Archetype Selection (Optional)
+Use neutral style references (no person naming):
+- `clarity-pragmatic`
+- `empathy-deep-listening`
+- `discovery-continuous`
+- `systems-thinking`
+- `heuristic-evidence`
+- `lean-experiment`
+
+If user doesn’t specify style, default to `clarity-pragmatic` + `empathy-deep-listening`.
 
 ---
 
@@ -124,6 +135,11 @@ If evidence is weak, output must include an explicit confidence flag:
 - For recommendations impacting roadmap or budget, require at least **MEDIUM** confidence.
 - If sample size is too small (e.g., n=1 interview), label as **directional only**.
 - Always separate **user pain evidence** from **solution preference**.
+
+### Gate references
+- `config/phase-gates.yaml` — required outputs per phase
+- `config/method-registry.yaml` — method menu + sample guidance
+- `config/quality-benchmarks.yaml` — blockers/warnings/confidence checks
 
 ---
 
@@ -379,6 +395,19 @@ Continue from here, or any updates?"
 ux-deep-research/
 ├── SKILL.md                      # Orchestrator skill
 ├── _meta.json                    # Skill metadata
+├── config/
+│   ├── phase-gates.yaml          # Phase quality gates
+│   ├── method-registry.yaml      # Method menu by phase
+│   └── quality-benchmarks.yaml   # Thresholds + blockers
+├── styles/
+│   ├── _default.yaml
+│   └── archetypes/
+│       ├── clarity-pragmatic.yaml
+│       ├── empathy-deep-listening.yaml
+│       ├── discovery-continuous.yaml
+│       ├── systems-thinking.yaml
+│       ├── heuristic-evidence.yaml
+│       └── lean-experiment.yaml
 ├── references/
 │   ├── interview-techniques.md   # Probing methods
 │   ├── synthesis-deep.md         # Pattern extraction
@@ -417,6 +446,6 @@ Use root skill as orchestrator. Route to subskill when user intent is specific:
 
 ---
 
-_Version 2.1 — Enhanced with 8-stage research flow + output contract_  
+_Version 2.2 — Added anonymized style archetypes + phase/method/quality configs_  
 _Advanced Skill Creator methodology applied_  
 _Maintainer: kangpukul_

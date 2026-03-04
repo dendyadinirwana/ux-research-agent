@@ -1,0 +1,42 @@
+phases:
+  empathize:
+    required_inputs:
+      - research_objective
+      - user_scope
+    required_outputs:
+      - evidence_log
+      - assumptions_labeled
+    next: define
+
+  define:
+    required_inputs:
+      - evidence_log
+    required_outputs:
+      - problem_statement
+      - confidence_level
+    next: ideate
+
+  ideate:
+    required_inputs:
+      - problem_statement
+    required_outputs:
+      - option_set
+      - prioritization_rationale
+    next: prototype
+
+  prototype:
+    required_inputs:
+      - option_set
+    required_outputs:
+      - learning_goals
+      - prototype_plan
+    next: test
+
+  test:
+    required_inputs:
+      - prototype_plan
+    required_outputs:
+      - findings
+      - decision_log
+      - next_actions
+    next: reflect

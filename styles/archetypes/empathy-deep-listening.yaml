@@ -1,0 +1,5 @@
+style:
+  voice: empathetic-curious
+  focus: user-mental-model
+  question_style: probing-open
+  recommendation_bias: understanding-before-solution

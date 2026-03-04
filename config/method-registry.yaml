@@ -1,0 +1,70 @@
+methods:
+  empathize:
+    - id: user-interview
+      when: exploratory needs and pain points
+      sample: "5-15"
+      output: transcript + insight tags
+    - id: contextual-inquiry
+      when: observe real task behavior
+      sample: "6-10"
+      output: workflow notes
+    - id: diary-study
+      when: longitudinal behavior needed
+      sample: "8-15"
+      output: behavior timeline
+
+  define:
+    - id: affinity-mapping
+      when: cluster qual findings
+      sample: team synthesis
+      output: themes + evidence mapping
+    - id: jtbd-framing
+      when: clarify motivation and outcomes
+      sample: "8-15 interviews"
+      output: JTBD statements
+    - id: journey-mapping
+      when: identify key friction points
+      sample: persona-based
+      output: journey map
+
+  ideate:
+    - id: hmw
+      when: generate broad opportunities
+      sample: workshop
+      output: HMW question set
+    - id: crazy-8s
+      when: rapid divergent ideation
+      sample: "4-8 contributors"
+      output: sketch options
+    - id: scampER
+      when: stretch concept alternatives
+      sample: workshop
+      output: alternative concept list
+
+  prototype:
+    - id: paper-prototype
+      when: quick concept validation
+      sample: "5-8"
+      output: annotated prototype
+    - id: clickable-midfi
+      when: flow/navigation validation
+      sample: "5-8"
+      output: flow-level prototype
+    - id: wizard-of-oz
+      when: simulate without full build
+      sample: "6-10"
+      output: feasibility notes
+
+  test:
+    - id: moderated-usability
+      when: deep behavior observation
+      sample: "8-12"
+      output: severity findings
+    - id: first-click
+      when: nav clarity validation
+      sample: "10-15"
+      output: click map + success rate
+    - id: a-b-test
+      when: compare alternatives quantitatively
+      sample: "100+ per variant"
+      output: statistical winner

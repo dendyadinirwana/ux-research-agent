@@ -1,0 +1,5 @@
+style:
+  voice: fast-iterative
+  focus: experiment-velocity
+  question_style: testable-assumption
+  recommendation_bias: validate-cheapest-first
