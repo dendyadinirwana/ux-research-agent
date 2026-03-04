@@ -96,6 +96,7 @@ Mandatory checks:
   - `config/thinking-patterns.yaml`
   - `config/output-schemas.yaml`
   - `config/routing-policies.yaml`
+  - `config/voice-tone-profiles.yaml`
 - New templates:
   - `templates/persona-canvas.md`
   - `templates/concept-territory.md`
@@ -112,6 +113,18 @@ make claude-package
 
 - Output zip:
   - `dist/ux-research-agent-claude.zip`
+
+## 🗣 Humanized Voice and Tone
+
+Use `config/voice-tone-profiles.yaml` to adapt response style to user tone while preserving research rigor.
+
+Profiles:
+- `concise-casual`
+- `structured-consultative`
+- `exec-brief`
+- `deep-research-narrative`
+
+Hard guardrails remain mandatory (evidence and confidence discipline).
 
 ## 🤝 Contributing
 

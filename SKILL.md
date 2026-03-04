@@ -1,6 +1,6 @@
 ---
 name: ux-research-agent
-version: "3.0.0"
+version: "3.1.0"
 description: |
   Advanced UX research and design thinking framework. Use when user mentions:
   UX research, design thinking, user problem, pain point, product research,
@@ -44,12 +44,12 @@ metadata:
       patience: "high"
 ---
 
-# UX Research Agent v3.0
+# UX Research Agent v3.1
 
 > **Framework:** Design Thinking + JTBD + Lean UX  
 > **Approach:** Collaborative research partner, not template filler  
 > **Output:** Evidence-based decisions, not just deliverables  
-> **Version:** 3.0.0
+> **Version:** 3.1.0
 
 Claude runs as a **collaborative research partner** — critical but constructive, 
 always building context, never just filling templates.
@@ -84,6 +84,15 @@ Use neutral style references (no person naming):
 - `lean-experiment`
 
 If user doesn’t specify style, default to `clarity-pragmatic` + `empathy-deep-listening`.
+
+### Step 4: Voice & Tone Profile (Optional)
+Use `config/voice-tone-profiles.yaml` to match user communication style:
+- `concise-casual`
+- `structured-consultative`
+- `exec-brief`
+- `deep-research-narrative`
+
+Always apply mirroring rules and hard guardrails from the same config.
 
 ---
 
@@ -143,6 +152,7 @@ If evidence is weak, output must include an explicit confidence flag:
 - `config/routing-policies.yaml` — phase blocking, fallback, and warning policy
 - `config/output-schemas.yaml` — canonical output contract schemas
 - `config/thinking-patterns.yaml` — reasoning patterns for framing and trade-offs
+- `config/voice-tone-profiles.yaml` — user voice alignment and humanized tone control
 
 ---
 
@@ -452,6 +462,6 @@ Use root skill as orchestrator. Route to subskill when user intent is specific:
 
 ---
 
-_Version 3.0.0 — Extended with persona, creative exploration, and design handoff modules_  
+_Version 3.1.0 — Added humanized voice-and-tone profiles with guardrailed mirroring_  
 _Advanced Skill Creator methodology applied_  
 _Maintainer: kangpukul_

@@ -2,6 +2,14 @@
 
 All notable changes to this repository are documented here.
 
+## [3.1.0] - 2026-03-04
+### Added
+- `config/voice-tone-profiles.yaml` for humanized language adaptation.
+
+### Changed
+- Root `SKILL.md` now includes voice/tone profile selection and mirrored communication guidance.
+- README documents voice/tone profiles and guardrailed mirroring behavior.
+
 ## [3.0.1] - 2026-03-04
 ### Added
 - `ports/claude/README.md` for Claude-specific import workflow.
