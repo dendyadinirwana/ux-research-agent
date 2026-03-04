@@ -2,69 +2,124 @@ methods:
   empathize:
     - id: user-interview
       when: exploratory needs and pain points
+      when_to_use: early discovery, unclear problem framing, need motivational depth
+      when_not_to_use: when only statistical validation is needed at scale
+      signal_to_switch_method: repeated themes with low novelty -> move to survey or prioritization
       sample: "5-15"
       output: transcript + insight tags
+
     - id: contextual-inquiry
       when: observe real task behavior
+      when_to_use: workflow-heavy tasks, strong context dependence, hidden workarounds suspected
+      when_not_to_use: when access to real context is impossible or behavior is low-stakes
+      signal_to_switch_method: context patterns stabilize -> move to synthesis or journey mapping
       sample: "6-10"
       output: workflow notes
+
     - id: diary-study
       when: longitudinal behavior needed
+      when_to_use: habits evolve over time, repeated usage patterns matter
+      when_not_to_use: one-off tasks or urgent short-cycle decisions
+      signal_to_switch_method: temporal pattern is clear -> move to define/prioritize
       sample: "8-15"
       output: behavior timeline
 
   define:
     - id: affinity-mapping
       when: cluster qual findings
+      when_to_use: large volume of raw qualitative evidence needs structure
+      when_not_to_use: very small data set with already obvious themes
+      signal_to_switch_method: stable clusters emerge -> move to JTBD/problem statements
       sample: team synthesis
       output: themes + evidence mapping
+
     - id: jtbd-framing
       when: clarify motivation and outcomes
+      when_to_use: need clearer demand-side outcome framing beyond feature requests
+      when_not_to_use: evidence is still too weak or contradictory
+      signal_to_switch_method: job stories become repetitive -> move to ideation
       sample: "8-15 interviews"
       output: JTBD statements
+
     - id: journey-mapping
       when: identify key friction points
+      when_to_use: cross-touchpoint experience has visible drop-off or confusion
+      when_not_to_use: scope is too narrow (single interaction only)
+      signal_to_switch_method: top friction moments are identified -> move to ideation/prototype
       sample: persona-based
       output: journey map
 
   ideate:
     - id: hmw
       when: generate broad opportunities
+      when_to_use: problem is clear and team needs multiple opportunity angles
+      when_not_to_use: root problem is still disputed
+      signal_to_switch_method: HMW themes converge -> move to concept generation/prototyping
       sample: workshop
       output: HMW question set
+
     - id: crazy-8s
       when: rapid divergent ideation
+      when_to_use: team is stuck in one dominant solution direction
+      when_not_to_use: concept constraints are highly technical and fixed
+      signal_to_switch_method: option diversity achieved -> move to concept scoring
       sample: "4-8 contributors"
       output: sketch options
-    - id: scampER
+
+    - id: scamper
       when: stretch concept alternatives
+      when_to_use: need structured creativity from existing concept baseline
+      when_not_to_use: no baseline concept exists yet
+      signal_to_switch_method: meaningful alternatives identified -> move to prototype planning
       sample: workshop
       output: alternative concept list
 
   prototype:
     - id: paper-prototype
       when: quick concept validation
+      when_to_use: early hypothesis checks before design investment
+      when_not_to_use: stakeholders require high-fidelity visual realism
+      signal_to_switch_method: core flow validated -> move to clickable prototype
       sample: "5-8"
       output: annotated prototype
+
     - id: clickable-midfi
       when: flow/navigation validation
+      when_to_use: interaction sequence and information architecture need testing
+      when_not_to_use: visual polish is the primary question
+      signal_to_switch_method: flow clarity is stable -> move to hi-fi/usability test
       sample: "5-8"
       output: flow-level prototype
+
     - id: wizard-of-oz
       when: simulate without full build
+      when_to_use: high uncertainty with expensive backend/AI implementation
+      when_not_to_use: simulation would heavily bias user behavior
+      signal_to_switch_method: feasibility assumptions validated -> move to implementation prototype
       sample: "6-10"
       output: feasibility notes
 
   test:
     - id: moderated-usability
       when: deep behavior observation
+      when_to_use: need detailed why-behind-failure insight
+      when_not_to_use: only top-line performance benchmarking is needed
+      signal_to_switch_method: severe issues drop and patterns stabilize -> move to quant validation
       sample: "8-12"
       output: severity findings
+
     - id: first-click
       when: nav clarity validation
+      when_to_use: task success depends on first decision point
+      when_not_to_use: task requires deep multi-step behavior understanding
+      signal_to_switch_method: first-click success is high -> move to full task usability
       sample: "10-15"
       output: click map + success rate
+
     - id: a-b-test
       when: compare alternatives quantitatively
+      when_to_use: alternatives are implementation-ready and measurable at scale
+      when_not_to_use: concept quality is still unstable or low-confidence
+      signal_to_switch_method: winner is statistically stable -> move to rollout/monitoring
       sample: "100+ per variant"
       output: statistical winner
