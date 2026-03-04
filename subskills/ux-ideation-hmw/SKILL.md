@@ -13,9 +13,9 @@ when: Use when user has validated problem and wants multiple solution directions
 - Top 3 options + rationale
 
 ## Guardrails
-- Jangan lompat ke 1 solusi terlalu cepat
-- Capture rejected ideas + reason
+- Do not jump to a single solution too early
+- Capture rejected ideas with rationale
 
 ## Exit criteria
-- Ada alternatif, bukan single-point solution
-- Candidate solusi siap diprototype
+- Multiple alternatives exist (not a single-point solution)
+- Candidate solutions are ready for prototype planning

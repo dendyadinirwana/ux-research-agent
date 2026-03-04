@@ -9,14 +9,14 @@ when: Use when user needs clear problem definition, JTBD statements, or prioriti
 Reference: `../../references/metrics-tie-in.md`
 
 ## Required outputs
-- Problem statement (template lengkap)
+- Problem statement (full template)
 - JTBD core statement
 - Supporting evidence list
 - Confidence level
 
 ## Template
-`[User] mengalami [pain] saat [context], karena [cause], dampaknya [impact].`
+`[User] experiences [pain] in [context], because [cause], resulting in [impact].`
 
 ## Exit criteria
-- Problem specific + evidence-based
-- Bukan solution framing
+- Problem is specific and evidence-based
+- Framed as a problem, not a solution

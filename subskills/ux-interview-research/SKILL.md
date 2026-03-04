@@ -21,5 +21,5 @@ Reference: `../../references/interview-techniques.md`
 - Jika sample <3: directional only
 
 ## Exit criteria
-- Guide siap dipakai
-- Success criteria wawancara jelas
+- Interview guide is ready to use
+- Interview success criteria are explicit
