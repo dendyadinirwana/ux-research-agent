@@ -1,0 +1,20 @@
+quality:
+  global:
+    - assumptions_must_be_labeled: true
+    - confidence_level_required: true
+    - decision_log_required: true
+
+  thresholds:
+    qualitative_min_sample: 5
+    usability_min_sample: 5
+    survey_min_sample: 100
+
+  blockers:
+    - missing_evidence_for_claim
+    - no_confidence_level
+    - no_next_actions
+
+  warnings:
+    - sample_below_recommended
+    - contradictory_findings_without_note
+    - recommendation_without_tradeoff

@@ -2,6 +2,15 @@
 
 All notable changes to this repository are documented here.
 
+## [3.0.1] - 2026-03-04
+### Added
+- `ports/claude/README.md` for Claude-specific import workflow.
+- `scripts/build_claude_package.sh` to generate a Claude-uploadable zip with a single `SKILL.md`.
+- `Makefile` target: `make claude-package`.
+
+### Changed
+- Root README now documents runtime port packaging for Claude.
+
 ## [3.0.0] - 2026-03-04
 ### Added
 - New subskills:

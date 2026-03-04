@@ -1,0 +1,17 @@
+routing:
+  default_phase: empathize
+  phase_priority: true
+  method_fallback: true
+
+policies:
+  - id: phase-gate-block
+    condition: required_outputs_missing
+    action: block_and_request_missing_items
+
+  - id: weak-evidence-warning
+    condition: confidence_level == LOW
+    action: mark_directional_only
+
+  - id: recommendation-block
+    condition: recommendation_without_evidence
+    action: reject_output

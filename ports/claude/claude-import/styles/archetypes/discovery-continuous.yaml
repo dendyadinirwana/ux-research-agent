@@ -1,0 +1,5 @@
+style:
+  voice: structured-iterative
+  focus: continuous-learning
+  question_style: hypothesis-driven
+  recommendation_bias: small-bets-high-feedback
