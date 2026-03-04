@@ -13,11 +13,11 @@ when: Use when user is at Stage 0 (problem still fuzzy, unclear objective, uncle
 - Facts vs assumptions list
 - 3 open questions
 
-## Prompt inti
+## Core prompts
 1. Why now?
-2. Siapa yang paling terdampak?
-3. Apa risiko kalau tidak diselesaikan?
-4. Constraint utama (waktu, tim, budget)?
+2. Who is most impacted?
+3. What is the risk if this is not solved?
+4. What are the key constraints (time, team, budget)?
 
 ## Exit criteria
 - Objective jelas

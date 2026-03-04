@@ -2,6 +2,11 @@
 
 All notable changes to this repository are documented here.
 
+## [2.2.2] - 2026-03-04
+### Changed
+- Converted repository documentation and reference library to English-only.
+- Normalized mixed-language sections in root skill and subskills.
+
 ## [2.2.1] - 2026-03-04
 ### Fixed
 - Aligned SKILL frontmatter name with repository directory:

@@ -20,4 +20,4 @@ Reference: `../../references/synthesis-deep.md`
 
 ## Exit criteria
 - Top themes validated evidence
-- Insight actionable untuk tahap define
+- Insights actionable for the Define phase
