@@ -11,14 +11,14 @@ Reference: `../../references/interview-techniques.md`
 ## Required outputs
 - Interview objective
 - Screener criteria
-- Interview guide (10-15 pertanyaan)
+- Interview guide (10-15 questions)
 - Probing plan
 - Bias checklist
 
 ## Guardrails
-- Hindari leading questions
+- Avoid leading questions
 - Label evidence confidence: HIGH/MEDIUM/LOW
-- Jika sample <3: directional only
+- If sample <3: directional only
 
 ## Exit criteria
 - Interview guide is ready to use
