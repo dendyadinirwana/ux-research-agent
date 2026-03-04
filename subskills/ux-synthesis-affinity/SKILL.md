@@ -16,7 +16,7 @@ Reference: `../../references/synthesis-deep.md`
 
 ## Methods
 - Open coding → grouping → theme naming
-- Pisahkan fact vs interpretation
+- Separate facts from interpretation
 
 ## Exit criteria
 - Top themes validated evidence

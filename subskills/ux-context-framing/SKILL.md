@@ -20,6 +20,6 @@ when: Use when user is at Stage 0 (problem still fuzzy, unclear objective, uncle
 4. What are the key constraints (time, team, budget)?
 
 ## Exit criteria
-- Objective jelas
-- User scope jelas
-- Assumption terlabel
+- Objective is clear
+- User scope is clear
+- Assumptions are labeled
