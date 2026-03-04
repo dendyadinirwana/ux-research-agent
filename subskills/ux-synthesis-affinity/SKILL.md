@@ -14,7 +14,7 @@ Reference: `../../references/synthesis-deep.md`
 - Insight statements
 - Opportunity areas (top 3-5)
 
-## Metode
+## Methods
 - Open coding → grouping → theme naming
 - Pisahkan fact vs interpretation
 
