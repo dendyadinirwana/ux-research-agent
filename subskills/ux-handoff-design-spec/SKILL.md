@@ -11,6 +11,11 @@ when: Use when user asks to bridge research into product/design execution.
 - Priority recommendations
 - Component/flow implications
 - Owner + timeline + validation plan
+- Output formatted with `templates/design-handoff.md`
+
+## Config dependencies
+- `config/output-schemas.yaml` → `design_handoff_pack`
+- `config/routing-policies.yaml` → recommendation evidence checks
 
 ## Rules
 - Every recommendation must cite evidence

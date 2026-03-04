@@ -11,6 +11,11 @@ when: Use when user asks for creative ideation, concept exploration, or breakthr
 - Rationale per concept
 - Risk and feasibility notes
 - Rejected concept log
+- Output formatted with `templates/concept-territory.md`
+
+## Config dependencies
+- `config/output-schemas.yaml` → `decision_pack`
+- `config/thinking-patterns.yaml` → `tradeoff-matrix`, `risk-first-analysis`
 
 ## Methods
 - HMW prompts

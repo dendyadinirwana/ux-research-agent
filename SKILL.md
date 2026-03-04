@@ -140,6 +140,9 @@ If evidence is weak, output must include an explicit confidence flag:
 - `config/phase-gates.yaml` — required outputs per phase
 - `config/method-registry.yaml` — method menu + sample guidance
 - `config/quality-benchmarks.yaml` — blockers/warnings/confidence checks
+- `config/routing-policies.yaml` — phase blocking, fallback, and warning policy
+- `config/output-schemas.yaml` — canonical output contract schemas
+- `config/thinking-patterns.yaml` — reasoning patterns for framing and trade-offs
 
 ---
 

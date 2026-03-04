@@ -11,6 +11,11 @@ when: Use when user asks for persona creation, persona validation, or audience s
 - Evidence link per persona claim
 - Anti-stereotype check
 - Confidence score per persona
+- Output formatted with `templates/persona-canvas.md`
+
+## Config dependencies
+- `config/output-schemas.yaml` → `research_evidence_pack`
+- `config/thinking-patterns.yaml` → `mental-model-mapping`, `jobs-framing`
 
 ## Rules
 - No fictional claims without evidence labels
