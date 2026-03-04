@@ -1,6 +1,6 @@
 ---
-name: ux-deep-research
-version: "2.2"
+name: ux-research-agent
+version: "2.2.1"
 description: |
   Advanced UX research and design thinking framework. Use when user mentions:
   UX research, design thinking, user problem, pain point, product research,
@@ -49,7 +49,7 @@ metadata:
 > **Framework:** Design Thinking + JTBD + Lean UX  
 > **Approach:** Collaborative research partner, not template filler  
 > **Output:** Evidence-based decisions, not just deliverables  
-> **Version:** 2.2
+> **Version:** 2.2.1
 
 Claude runs as a **collaborative research partner** — critical but constructive, 
 always building context, never just filling templates.
@@ -446,6 +446,6 @@ Use root skill as orchestrator. Route to subskill when user intent is specific:
 
 ---
 
-_Version 2.2 — Added anonymized style archetypes + phase/method/quality configs_  
+_Version 2.2.1 — Naming alignment + GitHub-style repository docs_  
 _Advanced Skill Creator methodology applied_  
 _Maintainer: kangpukul_
