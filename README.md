@@ -83,8 +83,23 @@ Mandatory checks:
 
 ## 📌 Versioning
 
-- Current skill version: `2.2` (`_meta.json: 2.2.0`)
-- Changelog: [`CHANGELOG.md`](./CHANGELOG.md)
+- Current skill version: `3.0.0`
+- Changelog: [`docs/CHANGELOG.md`](./docs/CHANGELOG.md)
+
+## v3 Additions
+
+- New subskills:
+  - `ux-persona-builder`
+  - `ux-creative-exploration`
+  - `ux-handoff-design-spec`
+- New configs:
+  - `config/thinking-patterns.yaml`
+  - `config/output-schemas.yaml`
+  - `config/routing-policies.yaml`
+- New templates:
+  - `templates/persona-canvas.md`
+  - `templates/concept-territory.md`
+  - `templates/design-handoff.md`
 
 ## 🤝 Contributing
 

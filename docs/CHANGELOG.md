@@ -2,6 +2,24 @@
 
 All notable changes to this repository are documented here.
 
+## [3.0.0] - 2026-03-04
+### Added
+- New subskills:
+  - `ux-persona-builder`
+  - `ux-creative-exploration`
+  - `ux-handoff-design-spec`
+- New config modules:
+  - `config/thinking-patterns.yaml`
+  - `config/output-schemas.yaml`
+  - `config/routing-policies.yaml`
+- New templates:
+  - `templates/persona-canvas.md`
+  - `templates/concept-territory.md`
+  - `templates/design-handoff.md`
+
+### Changed
+- Expanded orchestration scope from deep-research core to full UX research agent modules.
+
 ## [2.2.2] - 2026-03-04
 ### Changed
 - Converted repository documentation and reference library to English-only.

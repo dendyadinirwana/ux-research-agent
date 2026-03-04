@@ -1,6 +1,6 @@
 ---
 name: ux-research-agent
-version: "2.2.2"
+version: "3.0.0"
 description: |
   Advanced UX research and design thinking framework. Use when user mentions:
   UX research, design thinking, user problem, pain point, product research,
@@ -44,12 +44,12 @@ metadata:
       patience: "high"
 ---
 
-# UX Deep Research v2.2
+# UX Research Agent v3.0
 
 > **Framework:** Design Thinking + JTBD + Lean UX  
 > **Approach:** Collaborative research partner, not template filler  
 > **Output:** Evidence-based decisions, not just deliverables  
-> **Version:** 2.2.2
+> **Version:** 3.0.0
 
 Claude runs as a **collaborative research partner** — critical but constructive, 
 always building context, never just filling templates.
@@ -443,9 +443,12 @@ Use root skill as orchestrator. Route to subskill when user intent is specific:
 - Usability validation → `ux-usability-testing`
 - Decision documentation → `ux-decision-log`
 - Final output artifact → `ux-research-brief`
+- Persona creation / validation → `ux-persona-builder`
+- Divergent concept generation → `ux-creative-exploration`
+- Research-to-design bridge → `ux-handoff-design-spec`
 
 ---
 
-_Version 2.2.2 — English-only normalization across all docs and references_  
+_Version 3.0.0 — Extended with persona, creative exploration, and design handoff modules_  
 _Advanced Skill Creator methodology applied_  
 _Maintainer: kangpukul_

@@ -1,0 +1,24 @@
+schemas:
+  research_evidence_pack:
+    required:
+      - facts
+      - assumptions
+      - open_questions
+      - confidence_level
+      - evidence_links
+
+  decision_pack:
+    required:
+      - chosen_option
+      - rejected_options
+      - tradeoffs
+      - risk_log
+      - owner
+      - timeline
+
+  design_handoff_pack:
+    required:
+      - prioritized_insights
+      - design_implications
+      - implementation_notes
+      - validation_plan

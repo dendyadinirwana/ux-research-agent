@@ -1,0 +1,11 @@
+patterns:
+  - id: mental-model-mapping
+    use_for: understanding user cognition and sequence of thought
+  - id: jobs-framing
+    use_for: capturing functional/emotional/social progress goals
+  - id: assumption-ladder
+    use_for: validating unknowns from weak evidence
+  - id: tradeoff-matrix
+    use_for: selecting options under constraints
+  - id: risk-first-analysis
+    use_for: surfacing downside before commitment
