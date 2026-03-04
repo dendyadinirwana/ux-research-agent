@@ -377,7 +377,7 @@ Continue from here, or any updates?"
 
 ```
 ux-deep-research/
-├── SKILL.md                      # This file
+├── SKILL.md                      # Orchestrator skill
 ├── _meta.json                    # Skill metadata
 ├── references/
 │   ├── interview-techniques.md   # Probing methods
@@ -386,11 +386,34 @@ ux-deep-research/
 │   ├── metrics-tie-in.md         # Qual → Quant
 │   ├── research-ops.md           # Setup & logistics
 │   └── anti-patterns.md          # Warning signs
-└── templates/
-    ├── running-doc-template.md   # Stage tracker
-    ├── problem-statement.md      # Frame template
-    └── research-brief.md         # Output template
+├── templates/
+│   ├── running-doc-template.md   # Stage tracker
+│   ├── problem-statement.md      # Frame template
+│   └── research-brief.md         # Output template
+└── subskills/
+    ├── ux-context-framing/
+    ├── ux-interview-research/
+    ├── ux-synthesis-affinity/
+    ├── ux-problem-statement-jtbd/
+    ├── ux-ideation-hmw/
+    ├── ux-prototype-planning/
+    ├── ux-usability-testing/
+    ├── ux-decision-log/
+    └── ux-research-brief/
 ```
+
+## 🧩 Modular Subskill Routing
+
+Use root skill as orchestrator. Route to subskill when user intent is specific:
+- Context setup → `ux-context-framing`
+- Interview prep/execution → `ux-interview-research`
+- Synthesis/theming → `ux-synthesis-affinity`
+- Problem framing/JTBD → `ux-problem-statement-jtbd`
+- Ideation/HMW → `ux-ideation-hmw`
+- Prototype strategy → `ux-prototype-planning`
+- Usability validation → `ux-usability-testing`
+- Decision documentation → `ux-decision-log`
+- Final output artifact → `ux-research-brief`
 
 ---
 
