@@ -8,7 +8,7 @@ when: Use when user wants to validate prototype/concept with users.
 
 Reference: `../../references/anti-patterns.md`
 
-## Output wajib
+## Required outputs
 - Test objective + success metrics
 - Test protocol
 - Friction points (ranked)

@@ -6,7 +6,7 @@ when: Use when user needs prototype strategy before testing.
 
 # UX Prototype Planning
 
-## Output wajib
+## Required outputs
 - Learning goals (LG1, LG2, ...)
 - Prototype fidelity choice + reason
 - Test tasks draft

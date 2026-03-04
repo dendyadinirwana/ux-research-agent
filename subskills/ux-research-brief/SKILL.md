@@ -6,7 +6,7 @@ when: Use when user needs final summary artifact from UX research cycle.
 
 # UX Research Brief
 
-## Output wajib
+## Required outputs
 - Context
 - Key findings (3-5)
 - Final problem statement

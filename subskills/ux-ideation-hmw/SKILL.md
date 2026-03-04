@@ -6,7 +6,7 @@ when: Use when user has validated problem and wants multiple solution directions
 
 # UX Ideation (HMW)
 
-## Output wajib
+## Required outputs
 - HMW questions (5-10)
 - Idea clusters
 - Prioritization matrix (impact vs effort)

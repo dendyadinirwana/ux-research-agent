@@ -8,7 +8,7 @@ when: Use when user needs interview plan, interview script, recruitment, or inte
 
 Reference: `../../references/interview-techniques.md`
 
-## Output wajib
+## Required outputs
 - Interview objective
 - Screener criteria
 - Interview guide (10-15 pertanyaan)

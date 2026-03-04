@@ -6,7 +6,7 @@ when: Use when user is at Stage 0 (problem still fuzzy, unclear objective, uncle
 
 # UX Context Framing
 
-## Output wajib
+## Required outputs
 - Research objective (1 kalimat)
 - Target user utama + secondary
 - Business objective

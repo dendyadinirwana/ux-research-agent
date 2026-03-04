@@ -8,7 +8,7 @@ when: Use when user has interview notes, transcripts, or mixed research findings
 
 Reference: `../../references/synthesis-deep.md`
 
-## Output wajib
+## Required outputs
 - Theme clusters
 - Evidence quotes per theme
 - Insight statements

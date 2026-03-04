@@ -8,7 +8,7 @@ when: Use when team needs governance-grade decision tracking.
 
 Reference: `../../references/stakeholder-layer.md`
 
-## Output wajib
+## Required outputs
 - Decisions made + reasons
 - Evidence references
 - Rejected options + why

@@ -8,7 +8,7 @@ when: Use when user needs clear problem definition, JTBD statements, or prioriti
 
 Reference: `../../references/metrics-tie-in.md`
 
-## Output wajib
+## Required outputs
 - Problem statement (template lengkap)
 - JTBD core statement
 - Supporting evidence list
