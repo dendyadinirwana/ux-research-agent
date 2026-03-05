@@ -48,6 +48,9 @@ Research teams have too many templates and not enough discipline. `ux-research-a
 3. **Voice profiles**: configure `config/voice-tone-profiles.yaml` and `styles/` to influence whether responses feel consultative, narrative, or executive, without sacrificing guardrails.  
 4. **Quality checks**: `config/quality-benchmarks.yaml` runs in every phase to catch missing assumptions, unlabeled confidence, or absent next steps before a template completes.
 
+## Multi-agent launchpad
+`ux-research-agent` is packaged so that Claude, Manus, or any agent-style runtime can trigger the same workflow you run inside OpenClaw. Drop the repo into your project, build the Claude bundle with `make claude-package`, and feed `dist/ux-research-agent-claude.zip` (or the equivalent manifest) into Manus or agent LPs that accept zipped skill bundles. The OpenClaw-style entry points live in `subskills/`, so other agents can call the same verbs (`ux-persona-builder`, `ux-decision-log`, etc.) as long as they honor the CLI/JSON schema described in `ports/claude/README.md`. Use the voice-style configs to keep tone consistent no matter which agent surfaces the outputs.
+
 ## Quick start example
 1. Launch OpenClaw CLI.  
 2. Run `openclaw skill run ux-research-agent --entry empathize --persona clarity-pragmatic`.  
